@@ -9,9 +9,11 @@ Keryx is the first **BlockDAG** ecosystem purpose-built for decentralized AI inf
 | Repository | Description | Status |
 | :--- | :--- | :--- |
 | [**keryx-node**](https://github.com/Keryx-Labs/keryx-node) | Rust-based full node implementation with Candle-core ML integration. | Beta |
-| [**keryx-api**](https://github.com/Keryx-Labs/keryx-api) | High-performance indexer and gateway for decentralized AI requests. | Beta |
-| [**keryx-ecosystem**](https://github.com/Keryx-Labs/keryx-ecosystem) | Unified interface featuring BlockDAG Explorer and Web Wallet. | Beta |
 | [**keryx-miner**](https://github.com/Keryx-Labs/keryx-miner) | Anti-ASIC GPU miner designed for simultaneous PoW and AI inference. | Beta |
+| [**keryx-challenger**](https://github.com/Keryx-Labs/keryx-challenger) | Keryx fraud watcher — detects dishonest AiResponse commitments and submits on-chain challenges. | Beta |
+| [**keryx-api (private)**](https://github.com/Keryx-Labs/keryx-api) | High-performance rust indexer and gateway for decentralized AI requests. | Beta |
+| [**keryx-ecosystem (private)**](https://github.com/Keryx-Labs/keryx-ecosystem) | Unified interface featuring BlockDAG Explorer and Web Wallet. | Beta |
+
 
 ---
 
