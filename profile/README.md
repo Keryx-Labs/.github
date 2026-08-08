@@ -1,6 +1,9 @@
 # Welcome to Keryx Labs
 
-Keryx is the first **BlockDAG** ecosystem purpose-built for decentralized AI inference. By combining high-throughput GHOSTDAG architecture with optimistic verifiability, we are building a sovereign, censorship-resistant intelligence infrastructure.
+Keryx is a **BlockDAG** ecosystem purpose-built for decentralized, **uncensored** AI
+inference. It combines high-throughput GHOSTDAG consensus with **Proof-of-Model** —
+a memory-hard proof that miners genuinely hold the model weights — to build a
+sovereign, censorship-resistant intelligence infrastructure.
 
 ---
 
@@ -8,23 +11,24 @@ Keryx is the first **BlockDAG** ecosystem purpose-built for decentralized AI inf
 
 | Repository | Description | Status |
 | :--- | :--- | :--- |
-| [**keryx-node**](https://github.com/Keryx-Labs/keryx-node) | Rust-based full node implementation with Candle-core ML integration. | Beta |
-| [**keryx-miner**](https://github.com/Keryx-Labs/keryx-miner) | Anti-ASIC GPU miner designed for simultaneous PoW and AI inference. | Beta |
-| [**keryx-mobile-wallet**](https://github.com/Keryx-Labs/keryx-mobile-wallet) | The official mobile wallet for the Keryx Labs ecosystem | Beta |
-| [**keryx-desktop-wallet**](https://github.com/Keryx-Labs/keryx-desktop-wallet) | The official desktop wallet for the Keryx Labs ecosystem | Beta |
-| [**keryx-challenger (private)**](https://github.com/Keryx-Labs/keryx-challenger) | Detects dishonest AiResponse commitments and submits on-chain challenges. | Beta |
-| [**keryx-api (private)**](https://github.com/Keryx-Labs/keryx-api) | High-performance rust indexer and gateway for decentralized AI requests. | Beta |
-| [**keryx-ecosystem (private)**](https://github.com/Keryx-Labs/keryx-ecosystem) | Unified interface featuring BlockDAG Explorer and Web Wallet. | Beta |
-
+| [**keryx-node**](https://github.com/Keryx-Labs/keryx-node) | Rust full node; in-process llama.cpp inference, Proof-of-Model consensus. | Beta |
+| [**keryx-miner**](https://github.com/Keryx-Labs/keryx-miner) | Anti-ASIC GPU miner: memory-hard Proof-of-Model walk + on-demand inference. | Beta |
+| [**keryx-mobile-wallet**](https://github.com/Keryx-Labs/keryx-mobile-wallet) | Official mobile wallet. | Beta |
+| [**keryx-desktop-wallet**](https://github.com/Keryx-Labs/keryx-desktop-wallet) | Official desktop wallet. | Beta |
+| [**keryx-api (private)**](https://github.com/Keryx-Labs/keryx-api) | Rust indexer and gateway for the explorer, wallets and AI requests. | Beta |
+| [**keryx-ecosystem (private)**](https://github.com/Keryx-Labs/keryx-ecosystem) | Unified interface: BlockDAG explorer and web wallet. | Beta |
 
 ---
 
 ### Protocol Highlights
 
-* **Optimistic Proof of Inference:** Instant AI responses with a collateral-backed challenge window.
-* **10 BPS GHOSTDAG:** Leveraging the fastest DAG structure for rapid transaction and task finality.
-* **Sovereign Intelligence:** Decentralized model execution (Phi-3 / TinyLlama) across a global miner network.
-* **Synthetic Task Bootstrap:** Native protocol mechanism to ensure infrastructure readiness from Genesis.
+* **Proof-of-Model (PoM):** a memory-hard walk over the model weights — miners prove
+  they actually possess the model, not just raw hashpower. GPU-first, ASIC-resistant.
+* **10 BPS GHOSTDAG:** one of the fastest DAG structures for rapid finality.
+* **Uncensored inference:** decentralized execution of abliterated open models across
+  a global GPU miner network, from ~6 GB cards up to 48B-class models.
+* **Inference from Genesis:** every block requires real model work — the network is
+  inference-ready from block one.
 
 ---
 
