@@ -11,12 +11,12 @@ sovereign, censorship-resistant intelligence infrastructure.
 
 | Repository | Description | Status |
 | :--- | :--- | :--- |
-| [**keryx-node**](https://github.com/Keryx-Labs/keryx-node) | Rust full node; in-process llama.cpp inference, Proof-of-Model consensus. | Beta |
-| [**keryx-miner**](https://github.com/Keryx-Labs/keryx-miner) | Anti-ASIC GPU miner: memory-hard Proof-of-Model walk + on-demand inference. | Beta |
-| [**keryx-mobile-wallet**](https://github.com/Keryx-Labs/keryx-mobile-wallet) | Official mobile wallet. | Beta |
-| [**keryx-desktop-wallet**](https://github.com/Keryx-Labs/keryx-desktop-wallet) | Official desktop wallet. | Beta |
-| [**keryx-api (private)**](https://github.com/Keryx-Labs/keryx-api) | Rust indexer and gateway for the explorer, wallets and AI requests. | Beta |
-| [**keryx-ecosystem (private)**](https://github.com/Keryx-Labs/keryx-ecosystem) | Unified interface: BlockDAG explorer and web wallet. | Beta |
+| [**keryx-node**](https://github.com/Keryx-Labs/keryx-node) | Rust full node; in-process llama.cpp inference, Proof-of-Model consensus. |
+| [**keryx-miner**](https://github.com/Keryx-Labs/keryx-miner) | Anti-ASIC GPU miner: memory-hard Proof-of-Model walk + on-demand inference. |
+| [**keryx-desktop-wallet**](https://github.com/Keryx-Labs/keryx-desktop-wallet) | Official desktop wallet. |
+| [**keryx-mobile-wallet**](https://github.com/Keryx-Labs/keryx-mobile-wallet) | Official mobile wallet. |
+| [**keryx-api (private)**](https://github.com/Keryx-Labs/keryx-api) | Rust indexer and gateway for the explorer, wallets and AI requests. |
+| [**keryx-ecosystem (private)**](https://github.com/Keryx-Labs/keryx-ecosystem) | Unified interface: BlockDAG explorer and web wallet. |
 
 ---
 
