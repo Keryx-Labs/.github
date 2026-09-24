@@ -10,7 +10,7 @@ sovereign, censorship-resistant intelligence infrastructure.
 ### Our Core Ecosystem
 
 | Repository | Description |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | [**keryx-node**](https://github.com/Keryx-Labs/keryx-node) | Rust full node; in-process llama.cpp inference, Proof-of-Model consensus. |
 | [**keryx-miner**](https://github.com/Keryx-Labs/keryx-miner) | Anti-ASIC GPU miner: memory-hard Proof-of-Model walk + on-demand inference. |
 | [**keryx-desktop-wallet**](https://github.com/Keryx-Labs/keryx-desktop-wallet) | Official desktop wallet. |
